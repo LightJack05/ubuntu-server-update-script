@@ -2,7 +2,7 @@ echo "Creating /srv/update-script..."
 mkdir /srv/update-script
 
 echo "Downloading update script..."
-wget https://raw.githubusercontent.com/LightJack05/ubuntu-server-update-script/ -o /srv/update-script/update.sh
+wget https://raw.githubusercontent.com/LightJack05/ubuntu-server-update-script/update.sh -o /srv/update-script/update.sh
 chmod +x /srv/update-script/update.sh
 
 echo "Creating cronjob for current user..."
